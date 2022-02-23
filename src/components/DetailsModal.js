@@ -1,9 +1,11 @@
 import '../css/DetailsModal.css'
 
-const DetailsModal = () => {
+
+const DetailsModal = ({closeModal, section, subsection, title, abstract, url, byline, image}) => {
+	console.log('modal')
 	return (
 		<section className='details-modal'>
-			<p>modal</p>
+			<p>{title}</p>
 		</section>
 	)
 }
