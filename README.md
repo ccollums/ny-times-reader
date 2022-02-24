@@ -49,12 +49,14 @@ Scroll down for screenshots:
 
 
 ### Home Page 
+<img width="600" alt="Screen Shot 2022-02-24 at 4 37 32 PM" src="https://user-images.githubusercontent.com/86894344/155625597-6179af2b-d3cc-41d4-b753-e7cea8928ffe.png">
 
 
 
 ### Details Page   
 
-  
+<img width="600" alt="Screen Shot 2022-02-24 at 4 38 19 PM" src="https://user-images.githubusercontent.com/86894344/155625600-7ca30615-4bc2-437a-ae6a-54cc8db79f8d.png">
+
 ## Future Improvements
 
 - An improvement I would make is to fully test all user flows. 
