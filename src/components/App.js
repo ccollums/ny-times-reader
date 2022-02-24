@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 function App() {
   const [error, setError] = useState(false)
   const [articles, setArticles] = useState([])
+  const [dropdown, setDropdown] = useState('')
   const categories = ['arts', 'automobiles', 'books', 'business', 'fashion', 'food', 'health', 'home', 'insider', 'magazine', 'movies', 'nyregion', 'obituaries', 'opinion', 'politics', 'realestate', 'science', 'sports', 'sundayreview', 'technology', 'theater', 't-magazine', 'travel', 'upshot', 'us', 'world']
 
   const fetchData = async () => {
@@ -40,12 +41,18 @@ function App() {
     return <option>{category}</option>
   })
 
+  const handleFilter = (event) => {
+    event.preventDefault()
+    console.log(dropdown)
+  }
+
   return (
     <main className="App">
       <h1>Top NYT Articles Today</h1>
       <div className='filter'>
-        <select>{displayCategoryDropdowns}</select>
-        <button>Filter</button>
+        <select value={dropdown}
+        onChange={event => setDropdown(event.target.value)}>{displayCategoryDropdowns}</select>
+        <button onClick={(event => handleFilter(event))}>Filter</button>
       </div>
       <ArticlesContainer articles={articles}/>
     </main>
