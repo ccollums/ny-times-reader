@@ -42,7 +42,10 @@ Scroll down for screenshots:
 
 
 ### Figma Planning 
+<img width="600" alt="Screen Shot 2022-02-24 at 4 34 16 PM" src="https://user-images.githubusercontent.com/86894344/155625368-98cc5478-f549-47eb-85b6-4fba802d3d06.png">
 
+
+<img width="600" alt="Screen Shot 2022-02-24 at 4 34 09 PM" src="https://user-images.githubusercontent.com/86894344/155625380-00049a27-3ff0-472e-b052-33e483a3ef60.png">
 
 
 ### Home Page 
