@@ -1,5 +1,25 @@
 .article-card {
-	border: solid 2px red;
+	margin: 1em 3em;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0 3px 9px -3px rgba(0, 0, 0, .3);
+}
+
+.article-card p,
+.article-card strong {
+	margin: .7em;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.article-card:hover {
+	background-color: #2d6a4f;
+	color: white;
 }
 
 .Modal {
@@ -8,7 +28,16 @@
 	left: 10%;
 	right: 10%;
 	bottom: 10%;
-	background-color: #F2EEEA;
+	background-color: white;
 	border-radius: 10px;
 	outline: 0;
+}
+
+.Overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4)
 }

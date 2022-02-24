@@ -9,7 +9,6 @@ const ArticlesCard = ({id, section, subsection, title, abstract, url, byline, im
 	const [modalOpen, setModalOpen] = useState(false)
 
   const openModal = (event) => {
-		console.log('hi')
     event.preventDefault()
     setModalOpen(true)
   }
@@ -21,8 +20,10 @@ const ArticlesCard = ({id, section, subsection, title, abstract, url, byline, im
 	
 	return (
 		<section className='article-card'>
-			<p onClick={(event) => openModal(event)}>{title}</p>
-			<p>{byline}</p>
+			<div className='article' onClick={(event) => openModal(event)}>
+				<strong>{title}</strong>
+				<p>{byline}</p>
+			</div>
 			<Modal 
         className='Modal'
         overlayClassName="Overlay"

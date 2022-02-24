@@ -5,13 +5,15 @@ const DetailsModal = ({closeModal, section, subsection, title, abstract, url, by
 	return (
 		<section className='details-modal'>
 			<img src={image} alt={title}/>
-			<p>{title}</p>
+			<strong>{title}</strong>
 			<p>{byline}</p>
-			<p>{abstract}</p>
-			<a href={url}>Visit Article Here</a> 
-			<p>{section}</p>
-			<p>{subsection}</p>
-			<IoIosCloseCircle onClick={closeModal}/>
+			<p className='abstract'>{abstract}</p>
+			<a href={url}>View Article Here</a> 
+			<div className='sections'>
+				<p>{section}</p>
+				<p>{subsection}</p>
+			</div>
+			<IoIosCloseCircle className='x-icon' onClick={(event) => closeModal(event)}/>
 		</section>
 	)
 }
