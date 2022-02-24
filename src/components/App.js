@@ -24,13 +24,14 @@ function App() {
             abstract: article.abstract,
             url: article.url,
             byline: article.byline,
-            image: article.multimedia[0].url
+            image: article.multimedia ? article.multimedia[0].url : ''
 					}
 				}))
 			} else {
 				throw new Error('Failed to fetch.')
 			}
 		} catch (err) {
+      console.log(err)
 			setError(true)
 		}
 	}
