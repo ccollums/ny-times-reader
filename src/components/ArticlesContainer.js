@@ -1,5 +1,6 @@
-import ArticlesCard from "./ArticlesCard"
-import '../css/ArticlesContainer.css'
+import ArticlesCard from './ArticlesCard';
+import '../css/ArticlesContainer.css';
+import React from 'react';
 
 const ArticlesContainer = ({ articles }) => {
 
@@ -14,13 +15,14 @@ const ArticlesContainer = ({ articles }) => {
 			url={article.url}
 			byline={article.byline}
 			image={article.image}
-		/>
-	})
+		/>;
+	});
+
 	return (
 		<section className='article-container'>
 			{displayArticles}
 		</section>
-	)
-}
+	);
+};
 
-export default ArticlesContainer
+export default ArticlesContainer;

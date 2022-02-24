@@ -1,20 +1,21 @@
 import '../css/App.css';
 import ArticlesContainer from './ArticlesContainer';
-import { useEffect, useState } from 'react'
+import { React, useEffect, useState } from 'react';
+
 
 function App() {
-  const [error, setError] = useState(false)
-  const [filterError, setFilterError] = useState(false)
-  const [articles, setArticles] = useState([])
-  const [filteredArticles, setFilteredArticles] = useState([])
-  const [dropdown, setDropdown] = useState('')
-  const categories = ['arts', 'automobiles', 'books', 'business', 'fashion', 'food', 'health', 'home', 'insider', 'magazine', 'movies', 'nyregion', 'obituaries', 'opinion', 'politics', 'realestate', 'science', 'sports', 'sundayreview', 'technology', 'theater', 't-magazine', 'travel', 'upshot', 'us', 'world']
+  const [error, setError] = useState(false);
+  const [filterError, setFilterError] = useState(false);
+  const [articles, setArticles] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState([]);
+  const [dropdown, setDropdown] = useState('');
+  const categories = ['arts', 'automobiles', 'books', 'business', 'fashion', 'food', 'health', 'home', 'insider', 'magazine', 'movies', 'nyregion', 'obituaries', 'opinion', 'politics', 'realestate', 'science', 'sports', 'sundayreview', 'technology', 'theater', 't-magazine', 'travel', 'upshot', 'us', 'world'];
 
   const fetchData = async () => {
 		try {
-			const articleData = await fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=3nLzi0V3opGoomfs9zbdshAOmTpVS71D')
+			const articleData = await fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=3nLzi0V3opGoomfs9zbdshAOmTpVS71D');
 			if (articleData.ok) {
-				const { results } = await articleData.json()
+				const { results } = await articleData.json();
 				setArticles(results.map((article, index) => {
 					return {
 						id: index + 1,
@@ -25,42 +26,41 @@ function App() {
             url: article.url,
             byline: article.byline,
             image: article.multimedia ? article.multimedia[0].url : ''
-					}
-				}))
+					};
+				}));
 			} else {
-				throw new Error('Failed to fetch.')
+				throw new Error('Failed to fetch.');
 			}
 		} catch (err) {
-      console.log(err)
-			setError(true)
+			setError(true);
 		}
-	}
+	};
 
   useEffect(() => {
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
   const displayCategoryDropdowns = categories.map(category => {
-    return <option>{category}</option>
-  })
+    return <option key={category}>{category}</option>;
+  });
 
   const handleFilter = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     const filteredArticles = articles.filter(article => {
-      return article.section === dropdown
-    })
+      return article.section === dropdown;
+    });
     if (!filteredArticles.length) {
-      setFilterError(true)
+      setFilterError(true);
     } else {
-      setFilterError(false)
-      setFilteredArticles(filteredArticles)
+      setFilterError(false);
+      setFilteredArticles(filteredArticles);
     }
-  }
+  };
 
   const reset = () => {
-    setFilteredArticles([])
-    setFilterError(false)
-  }
+    setFilteredArticles([]);
+    setFilterError(false);
+  };
   
 
   return (

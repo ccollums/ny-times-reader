@@ -1,5 +1,6 @@
-import '../css/DetailsModal.css'
+import '../css/DetailsModal.css';
 import { IoIosCloseCircle } from 'react-icons/io';
+import React from 'react';
 
 const DetailsModal = ({closeModal, section, subsection, title, abstract, url, byline, image}) => {
 	return (
@@ -15,7 +16,7 @@ const DetailsModal = ({closeModal, section, subsection, title, abstract, url, by
 			</div>
 			<IoIosCloseCircle className='x-icon' onClick={(event) => closeModal(event)}/>
 		</section>
-	)
-}
+	);
+};
 
-export default DetailsModal
+export default DetailsModal;
