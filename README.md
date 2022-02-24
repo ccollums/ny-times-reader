@@ -39,6 +39,7 @@ Scroll down for screenshots:
 - [Figma Planning](#Figma-Planning)
 - [Home Page](#Home-Page)
 - [Details View](#Details-View)
+- [Accessibility](#Accessibility) 
 
 
 ### Figma Planning 
@@ -56,6 +57,11 @@ Scroll down for screenshots:
 ### Details Page   
 
 <img width="600" alt="Screen Shot 2022-02-24 at 4 38 19 PM" src="https://user-images.githubusercontent.com/86894344/155625600-7ca30615-4bc2-437a-ae6a-54cc8db79f8d.png">
+
+### Accessibility 
+
+<img width="608" alt="Screen Shot 2022-02-24 at 4 41 08 PM" src="https://user-images.githubusercontent.com/86894344/155625880-cba7e85b-2a67-486c-b269-ce3a5b3beb72.png">
+
 
 ## Future Improvements
 
