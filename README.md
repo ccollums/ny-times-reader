@@ -11,7 +11,7 @@
   - [Authors](#Authors)
 
 ## Introduction 
-The New York Times reader gives a user the ability to see today's top articles, filter the articles by category and view article details and link to full article. App was completed in 4-8 hours as a take home challenege. 
+The New York Times reader gives a user the ability to see today's top articles, filter the articles by category and view article details and link to full article. App was completed in 4-6 hours as a take home challenege. 
 
 
 ## Technologies
