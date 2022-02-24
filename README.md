@@ -7,14 +7,12 @@
   - [Technologies](#Technologies)
   - [Deployment](#Deployment)
   - [Site Overview](#Site-Overview)
-  - [Wins and Challenges](#Wins-And-Challenges)
   - [Future Improvements](#Future-Improvements)
   - [Authors](#Authors)
 
 ## Introduction 
-The New York Times reader gives a user the ability to see today's top articles, filter the articles by category and few article details to be linked to full article. 
+The New York Times reader gives a user the ability to see today's top articles, filter the articles by category and view article details and link to full article. App was completed in 4-8 hours as a take home challenege. 
 
-Part of a take home challenege. 
 
 ## Technologies
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -53,21 +51,13 @@ Scroll down for screenshots:
 
 ### Details Page   
 
-
-
-## Wins And Challenges 
-
-### Wins
-- A requirement for this project was that we self-teach and use a technology we had not used before. We decided to implement TypeScript. One key win was our ability to learn TypeScript in a very short period of time and use it within a complex web application.
-- We also used React' Context API and this made for a fairly streamlined data model.
-- It was a great experience using React's MUI library for beautiful, standardized components.
-- Being able to give the user the ability to upload photos with Cloudinary API was another win that made this project successful.
-
-### Challenges 
-- As stated above, we challenged ourselves to implement TypeScript. This came with a healthy dose of challenges. Certain processes and features took longer than originally planned. Because we were learning as we went, we feel we would have planned differently from the beginning in terms of data flow and structure had we been more familiar with the intricacies of typed JavaScript.
-
   
 ## Future Improvements
+
+- An improvement I would make is to fully test all user flows. 
+- Make the filter method a live filter and possibly add other filter options. 
+- Add React Router to go to the modal pages when article details are clicked. 
+- Further improve the design of the application. 
 
 
 ## Authors 
