@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react'
 
 function App() {
   const [error, setError] = useState(false)
+  const [filterError, setFilterError] = useState(false)
   const [articles, setArticles] = useState([])
+  const [filteredArticles, setFilteredArticles] = useState([])
   const [dropdown, setDropdown] = useState('')
   const categories = ['arts', 'automobiles', 'books', 'business', 'fashion', 'food', 'health', 'home', 'insider', 'magazine', 'movies', 'nyregion', 'obituaries', 'opinion', 'politics', 'realestate', 'science', 'sports', 'sundayreview', 'technology', 'theater', 't-magazine', 'travel', 'upshot', 'us', 'world']
 
@@ -43,8 +45,17 @@ function App() {
 
   const handleFilter = (event) => {
     event.preventDefault()
-    console.log(dropdown)
+    const filteredArticles = articles.filter(article => {
+      return article.section === dropdown
+    })
+    if (!filteredArticles.length) {
+      setFilterError(true)
+    } else {
+      setFilterError(false)
+      setFilteredArticles(filteredArticles)
+    }
   }
+  
 
   return (
     <main className="App">
@@ -54,7 +65,9 @@ function App() {
         onChange={event => setDropdown(event.target.value)}>{displayCategoryDropdowns}</select>
         <button onClick={(event => handleFilter(event))}>Filter</button>
       </div>
-      <ArticlesContainer articles={articles}/>
+      {!filterError ? <>
+        {!filteredArticles.length ? <ArticlesContainer articles={articles}/> : <ArticlesContainer articles={filteredArticles}/>}
+      </> : <p>Error!</p>}
     </main>
   );
 }
