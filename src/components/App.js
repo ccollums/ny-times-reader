@@ -55,6 +55,11 @@ function App() {
       setFilteredArticles(filteredArticles)
     }
   }
+
+  const reset = () => {
+    setFilteredArticles([])
+    setFilterError(false)
+  }
   
 
   return (
@@ -64,10 +69,11 @@ function App() {
         <select value={dropdown}
         onChange={event => setDropdown(event.target.value)}>{displayCategoryDropdowns}</select>
         <button onClick={(event => handleFilter(event))}>Filter</button>
+        <button onClick={(() => reset())}>Reset</button>
       </div>
       {!filterError ? <>
         {!filteredArticles.length ? <ArticlesContainer articles={articles}/> : <ArticlesContainer articles={filteredArticles}/>}
-      </> : <p>Error!</p>}
+      </> : <p>Oops, looks like today there are no articles in that category!</p>}
     </main>
   );
 }
