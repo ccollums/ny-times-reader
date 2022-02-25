@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# New York Times Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###### Keep up on the current top articles at the NYT...
 
-## Available Scripts
+## Table of Contents
+  - [Introduction](#Introduction)  
+  - [Technologies](#Technologies)
+  - [Deployment](#Deployment)
+  - [Site Overview](#Site-Overview)
+  - [Future Improvements](#Future-Improvements)
+  - [Authors](#Authors)
 
-In the project directory, you can run:
+## Introduction 
+The New York Times reader gives a user the ability to see today's top articles, filter the articles by category and view article details and link to full article. App was completed in 4-6 hours as a take home challenege. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Cypress](https://img.shields.io/badge/-cypress-black?logo=cypress&logoColor=white&style=for-the-badge)
+![JSX](https://img.shields.io/badge/-jsx-302f2f?logo=javascript&logoColor=9428cb&style=for-the-badge)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![VSCode](https://img.shields.io/badge/-VSCode-2C2C32?logo=visual-studio-code&logoColor=007ACC&style=for-the-badge)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**To run locally:**
+1. Clone this repo down to your local machine: [here](https://github.com/Puzzle-Capstone/puzzlrs-ui)
+2. On the command line, type: `npm install`
+3. On the command line, type: `npm start`
+4. Visit `http://localhost:3000/`
+ 
+## Site Overview 
 
-### `npm run build`
+Scroll down for screenshots:
+- [Figma Planning](#Figma-Planning)
+- [Home Page](#Home-Page)
+- [Details View](#Details-View)
+- [Accessibility](#Accessibility) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Figma Planning 
+<img width="600" alt="Screen Shot 2022-02-24 at 4 34 16 PM" src="https://user-images.githubusercontent.com/86894344/155625368-98cc5478-f549-47eb-85b6-4fba802d3d06.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<img width="600" alt="Screen Shot 2022-02-24 at 4 34 09 PM" src="https://user-images.githubusercontent.com/86894344/155625380-00049a27-3ff0-472e-b052-33e483a3ef60.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Home Page 
+<img width="600" alt="Screen Shot 2022-02-24 at 4 37 32 PM" src="https://user-images.githubusercontent.com/86894344/155625597-6179af2b-d3cc-41d4-b753-e7cea8928ffe.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Details Page   
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="600" alt="Screen Shot 2022-02-24 at 4 38 19 PM" src="https://user-images.githubusercontent.com/86894344/155625600-7ca30615-4bc2-437a-ae6a-54cc8db79f8d.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Accessibility 
 
-### Code Splitting
+<img width="608" alt="Screen Shot 2022-02-24 at 4 41 08 PM" src="https://user-images.githubusercontent.com/86894344/155625880-cba7e85b-2a67-486c-b269-ce3a5b3beb72.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- An improvement I would make is to fully test all user flows. 
+- Make the filter method a live filter and possibly add other filter options. 
+- Add React Router to go to the modal pages when article details are clicked. 
+- Further improve the design of the application. 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors 
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+    <tr>
+        <td> Carly Collums <a href="https://github.com/ccollums">GH</td>
+    </tr>
+<td><img src="https://avatars.githubusercontent.com/u/86894344?v=4" alt="Carly Collums"
+ width="150" height="auto" /></td>
+</table>
+  
