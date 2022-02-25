@@ -68,7 +68,10 @@ function App() {
       <h1>Top NYT Articles Today</h1>
       <div className='filter'>
         <select value={dropdown}
-        onChange={event => setDropdown(event.target.value)}>{displayCategoryDropdowns}</select>
+        onChange={event => setDropdown(event.target.value)}>
+          <option value="" disabled selected hidden>Search Category</option>
+          {displayCategoryDropdowns}
+          </select>
         <button onClick={(event => handleFilter(event))}>Filter</button>
         <button onClick={(() => reset())}>Reset</button>
       </div>
