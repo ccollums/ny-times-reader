@@ -11,8 +11,8 @@ const DetailsModal = ({closeModal, section, subsection, title, abstract, url, by
 			<p className='abstract'>{abstract}</p>
 			<a href={url}>View Article Here</a> 
 			<div className='sections'>
-				<p>{section}</p>
-				<p>{subsection}</p>
+				<p>Section: {section}</p>
+				<p>Subsection: {subsection}</p>
 			</div>
 			<IoIosCloseCircle className='x-icon' onClick={(event) => closeModal(event)}/>
 		</section>

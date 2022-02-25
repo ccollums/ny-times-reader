@@ -1,0 +1,194 @@
+{
+	"results": [
+	{
+	"section": "politics",
+	"subsection": "europe",
+	"title": "Maps: Tracking the Russian Invasion of Ukraine",
+	"abstract": "Russia launched attacks on major cities and airports across Ukraine, shelling more than a dozen cities and towns and crossing the border in multiple locations.",
+	"url": "https://www.nytimes.com/interactive/2022/world/europe/ukraine-maps.html",
+	"uri": "nyt://interactive/b5e90905-5744-5076-b57b-666b3781b15b",
+	"byline": "",
+	"item_type": "Interactive",
+	"updated_date": "2022-02-24T11:16:39-05:00",
+	"created_date": "2022-02-13T23:46:00-05:00",
+	"published_date": "2022-02-13T23:46:00-05:00",
+	"material_type_facet": "",
+	"kicker": "",
+	"des_facet": [
+	"Defense and Military Forces",
+	"War and Armed Conflicts",
+	"Russian Invasion of Ukraine (2022)"
+	],
+	"org_facet": [],
+	"per_facet": [],
+	"geo_facet": [
+	"Ukraine",
+	"Russia"
+	],
+	"multimedia": [
+	{
+	"url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-superJumbo-v10.jpg",
+	"format": "Super Jumbo",
+	"height": 1333,
+	"width": 2000,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "",
+	"copyright": "The New York Times"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-threeByTwoSmallAt2X-v13.jpg",
+	"format": "threeByTwoSmallAt2X",
+	"height": 400,
+	"width": 600,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "",
+	"copyright": "The New York Times"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-thumbLarge-v10.jpg",
+	"format": "Large Thumbnail",
+	"height": 150,
+	"width": 150,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "",
+	"copyright": "The New York Times"
+	}
+	],
+	"short_url": "https://nyti.ms/3HPQBVB"
+	},
+	{
+	"section": "world",
+	"subsection": "europe",
+	"title": "Putin, warning against interference, says that Russia is a ‘powerful nuclear state.’",
+	"abstract": "",
+	"url": "https://www.nytimes.com/live/2022/02/24/world/russia-attacks-ukraine/putin-nuclear-war-ukraine",
+	"uri": "nyt://article/5dd30175-a84b-58dc-b788-e209a288b29a",
+	"byline": "By Roger Cohen",
+	"item_type": "Article",
+	"updated_date": "2022-02-24T10:01:34-05:00",
+	"created_date": "2022-02-24T09:39:21-05:00",
+	"published_date": "2022-02-24T09:39:21-05:00",
+	"material_type_facet": "",
+	"kicker": "",
+	"des_facet": [
+	"Defense and Military Forces",
+	"War and Armed Conflicts",
+	"Nuclear Weapons"
+	],
+	"org_facet": [],
+	"per_facet": [
+	"Putin, Vladimir V"
+	],
+	"geo_facet": [
+	"Russia"
+	],
+	"multimedia": [
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-superJumbo.jpg",
+	"format": "Super Jumbo",
+	"height": 1182,
+	"width": 1773,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Wednesday.",
+	"copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-threeByTwoSmallAt2X.jpg",
+	"format": "threeByTwoSmallAt2X",
+	"height": 400,
+	"width": 600,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Wednesday.",
+	"copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-thumbLarge.jpg",
+	"format": "Large Thumbnail",
+	"height": 150,
+	"width": 150,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Wednesday.",
+	"copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+	}
+	],
+	"short_url": "https://nyti.ms/3BRaLwi"
+	},
+	{
+	"section": "world",
+	"subsection": "europe",
+	"title": "The Invasion of Ukraine: How Russia Attacked and What Happens Next",
+	"abstract": "Explosions thundered in Ukrainian cities shortly after President Vladimir V. Putin declared the start of a “special military operation.”",
+	"url": "https://www.nytimes.com/2022/02/24/world/europe/why-russia-attacked-ukraine.html",
+	"uri": "nyt://article/a0cd5499-2ca4-52c0-8527-afdb8c29477c",
+	"byline": "By Austin Ramzy",
+	"item_type": "Article",
+	"updated_date": "2022-02-24T11:04:34-05:00",
+	"created_date": "2022-02-24T04:46:00-05:00",
+	"published_date": "2022-02-24T04:46:00-05:00",
+	"material_type_facet": "",
+	"kicker": "",
+	"des_facet": [
+	"Russian Invasion of Ukraine (2022)",
+	"Defense and Military Forces",
+	"Politics and Government",
+	"War and Armed Conflicts",
+	"United States International Relations"
+	],
+	"org_facet": [
+	"European Union",
+	"North Atlantic Treaty Organization",
+	"Security Council (UN)",
+	"United Nations"
+	],
+	"per_facet": [
+	"Biden, Joseph R Jr",
+	"Zelensky, Volodymyr",
+	"Putin, Vladimir V"
+	],
+	"geo_facet": [
+	"Eastern Europe",
+	"Russia",
+	"Ukraine",
+	"Europe"
+	],
+	"multimedia": [
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-what-happened01/merlin_202760613_eb0cf08a-f3c5-415f-8f9f-e402fac0702d-superJumbo.jpg",
+	"format": "Super Jumbo",
+	"height": 1365,
+	"width": 2048,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "A building was hit in the town of Chuguiv, eastern Ukraine, on Thursday as Russian forces attacked the country.",
+	"copyright": "Aris Messinis/Agence France-Presse — Getty Images"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-what-happened01/merlin_202760613_eb0cf08a-f3c5-415f-8f9f-e402fac0702d-threeByTwoSmallAt2X.jpg",
+	"format": "threeByTwoSmallAt2X",
+	"height": 400,
+	"width": 600,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "A building was hit in the town of Chuguiv, eastern Ukraine, on Thursday as Russian forces attacked the country.",
+	"copyright": "Aris Messinis/Agence France-Presse — Getty Images"
+	},
+	{
+	"url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-what-happened01/24ukraine-what-happened01-thumbLarge.jpg",
+	"format": "Large Thumbnail",
+	"height": 150,
+	"width": 150,
+	"type": "image",
+	"subtype": "photo",
+	"caption": "A building was hit in the town of Chuguiv, eastern Ukraine, on Thursday as Russian forces attacked the country.",
+	"copyright": "Aris Messinis/Agence France-Presse — Getty Images"
+	}
+	],
+	"short_url": "https://nyti.ms/3sWEAr6"
+	}]
+}
